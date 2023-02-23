@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/index.css">
+  <title>CV RESPONSIVE</title>
+</head>
+
+<body>
+  <!-- ENCABEZADO -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-dark d-flex p-2" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <h1 class="fs-5 fw-bold">CV Escobar Marcos</h1>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-globe-americas" id="iconoMenu"></i>
+      </button>
+      <div class="collapse navbar-collapse sticky-top" id="navbarNav">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#presentacion">Presentación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Estudio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contenedorExperiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- SLIDER DE IMAGENES -->
+
+  <div id="presentacion" class="carousel slide d-block" data-bs-ride="carousel">
+
+    <div class="carousel-inner w-auto d-flex align-items-center text-center">
+      <div class="carousel-item active">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/David_Beckham_2009.jpg/320px-David_Beckham_2009.jpg"
+          class="img-fluid" alt="slider1">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XCeyqnv2KWr-MD5x_UKf45O0IUWi2WSfR.png"
+          class="img-fluid" alt="slider2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slider3.jpg" class="img-fluid" alt="slider3">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#presentacion" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#presentacion" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- ESTUDIOS-->
+
+  <div class="w-50 mx-auto text-center pt-5 text-light fs-3" id="intro">
+    <div>
+      <h2>Estudios</h2>
+      <div class="text-light">
+        <h3 class="p-3 fs-2 border-top border-3">Estudios secundarios y complementarios
+          <span><a href="https://www.sipted.misiones.gob.ar/">SIPTED</a></span>
+        </h3>
+        <p class="p-3 fs-4 ">
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed commodo cursus hendrerit. Donec ut egestas
+          lorem. Nunc eros nisi, sagittis non rutrum sed, aliquam ac ex. Mauris lobortis aliquam sapien, in commodo
+          libero ullamcorper at. Fusce pulvinar interdum sapien, eu ultrices sapien iaculis ut. In elementum mattis est
+          at ultricies.
+        </p>
+      </div>
+
+      <div>
+        <span class="p-3 fs-2 border-top border-3 text-light">Actualmente me encuentro incursionando en programación
+        </span>
+        <span class="text-primary">Primeros pasos del desarrollo frontend</span>
+        <h3 class="p-3 fs-4">Cursando el programa a traves de la plataforma <b><a
+              href="https://academy.profesional.ticmas.io/">TICMAS</a></b>
+          para aprender a diseñar páginas web con</h3>
+        <span class="text-primary"> <em>HTML5, CSS y JavaScript</em></span>
+      </div>
+
+      <div>
+        <h3 class="p-3 fs-2 border-top border-3">Entusiasta de acciones y mercado de valores
+          <span class="text-light">Analisis técnico y fundamental de activos subyacentes en general</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCIA -->
+
+  <div class="container text-center" id="contenedorExperiencia">
+    <div class="page-header p-5">
+      <h1 id="tituloExperiencia">experiencia laboral</h1>
+    </div>
+    <ul class="timeline">
+      <li>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h2 class="timeline-title">Mussum ipsum cacilds<i class="bi bi-music-note-list"></i></h2>
+            <h3 class="fs-5"><em>18/12/2020 - Actualmente</em><i class="bi bi-calendar-date"></i></h3>
+          </div>
+          <div class="timeline-body fs-3">
+            <span><audio controls muted>
+                <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/new_year_dubstep_minimix.ogg"
+                  type="audio/ogg">
+              </audio></span>
+            <p class="hide" id="hideText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit vel
+              diam a aliquet. Vivamus scelerisque auctor imperdiet. Duis posuere lobortis felis vel rhoncus. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed malesuada lectus
+              aliquet lorem rutrum porta. Donec nisl lacus, ultricies porta elementum at, convallis a purus. Nulla
+              ultricies, tortor nec laoreet eleifend, tellus eros vestibulum metus, non rutrum mi lectus ut nisi.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla posuere,
+              orci vitae lobortis vestibulum, ex lectus finibus neque, eget mattis nisl enim quis est. Curabitur sit
+              amet accumsan diam. Aenean in nibh eget magna bibendum malesuada ac ut erat. Etiam tincidunt sem ac purus
+              elementum sollicitudin. Maecenas volutpat, neque et ultricies accumsan, neque nisi auctor risus, ac
+              placerat ex ipsum vel nisl. Donec aliquam eleifend elit, ac gravida augue tincidunt nec.</p>
+          </div>
+          <button type="button" class="btn btn-dark text-center" id="botonLeerMas">Leer mas</button>
+        </div>
+      </li>
+
+      <li class="timeline-inverted">
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h2 class="timeline-title"><i class="bi bi-camera-reels"></i>Mussum ipsum cacilds</h2>
+            <h3 class="fs-5"><em>18/12/2015 18/12/2020</em><i class="bi bi-calendar-date"></i></h3>
+          </div>
+          <div class="timeline-body fs-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a tincidunt lacus, in varius lectus. Nulla
+              ultrices enim quis auctor sollicitudin. Nullam interdum sapien a sapien lobortis, vitae porta risus
+              vulputate. Morbi molestie bibendum vehicula. Nam sed viverra lectus, vel sagittis arcu. Nunc nunc ipsum,
+              accumsan nec placerat at, pulvinar ac dolor. In vehicula facilisis hendrerit.</p>
+          </div>
+          <div class="ratio ratio-16x9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ctif6olyX8k"
+              title="Dancing cow lol"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe> <!--ENTIENDO QUE ARROJA UN ERROR EN LA CONSOLA POR SER DE YOUTUBE, ANUNCIOS,ETC-->
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h2 class="timeline-title">Mussum ipsum cacilds</h2>
+            <h3 class="fs-5"><em>18/12/2010 18/12/2015</em><i class="bi bi-calendar-date"></i></h3>
+          </div>
+          <div class="timeline-body img-fluid">
+            <img
+              src="https://morguefile.nyc3.cdn.digitaloceanspaces.com/pub/Foodie%20Girl/images/2/large/1e1ce02c-0c92-4d48-a8f1-9a0bb6be9e2f.1675787090.jpg"
+              alt="Foto de comida" class="img-fluid">
+            <p class="text-light">Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá ,
+              depois divoltis porris,
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+              pra quem é amistosis quis leo.
+              Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+              Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="timeline-inverted">
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h2 class="timeline-title">Mussum ipsum cacilds</h2>
+            <h3 class="fs-5"><em>18/12/2005 18/12/2010</em><i class="bi bi-calendar-date"></i></h3>
+          </div>
+          <div class="timeline-body text-info">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+              pra quem é amistosis quis leo. <em> Manduma pindureta quium dia nois paga. Sapien in monti palavris qui
+                num significa nadis i pareci latim.
+                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+              </em></p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!--footer-->
+
+  <div class="container-fluid bg-secondary py-4 py-md-5 px-4 px-md-3 text-body-secondary text-center" id="contacto">
+    <h1 class="page-header p-2" id="tituloContacto">contacto</h1>
+
+    <div class="row" id="iconosContacto">
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="mb-2 fs-1"><a href="https://t.me/malabarismos">
+              <i class="bi bi-telegram text-light"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="mb-2 fs-1"><a
+              href="https://www.facebook.com/people/Marcos-Escobar/pfbid02D43kmBrfA7kRPVYA9DJH1dgKmVNqx1SX6mHNS2K3z9Nyo7TUWr7g6kQkfdC8ib8Gl/">
+              <i class="bi bi-facebook text-light"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="mb-2 fs-1"><a href="https://www.instagram.com/marcosescobarposta/">
+              <i class="bi bi-instagram text-light"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="mb-2 fs-1"><a href="https://www.linkedin.com/in/escobarmarcosjes/">
+              <i class="bi bi-linkedin text-light"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <ul class="list-unstyled small">
+        <li class="mb-2 text-center text-white">
+          <h2>Oberá, Misiones, Argentina</h2>
+        </li>
+        <li class="mb-2 fs-2">Cuit <a
+            href="https://www.cuitonline.com/detalle/23356958969/escobar-marcos-jesus.html">23-35695896-9</a></li>
+      </ul>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.7668070268123!2d-55.12930678433201!3d-27.476518323572606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f8f54fbd6cc969%3A0xac80c871d44306ec!2sJusto%20Jos%C3%A9%20de%20Urquiza%201001%2C%20Ober%C3%A1%2C%20Misiones!5e0!3m2!1ses!2sar!4v1676939284980!5m2!1ses!2sar"
+        width="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe> <!--ARROJA UN ERROR POR LA API-->
+      <h2 class="text-center  p-3 fs-3"> <em>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+        </em>Pralá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo</h2>
+    </div>
+  </div>
+
+  <button class="irArriba"><i class="bi bi-chevron-double-up text-light"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
